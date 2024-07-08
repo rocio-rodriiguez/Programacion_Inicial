@@ -56,11 +56,10 @@ print("La superficie del triángulo es: ", superficie_t)
 
 #8) Cree un programa que permite ingresar el nombre de un producto, el precio y que calcule el IVA.
 producto = input("Ingrese nombre del producto: ")
-precio = int(input("Ingrese el precio: "))
-iva= precio * 0.21
+precio = float(input("Ingrese el precio: "))
+iva= precio * 1.21
 
-print("El precio del producto es (Sin iva): ",precio)
-print("El precio del producto es (Con iva): ",precio+iva)
+print("El precio del producto es con iva es: ",iva)
 
 #9) cree un programa que calcule el promedio de un alumno, ingresando su nombre apellido, 3 notas, que muestre al final las leyendas pertinentes
 alumno = input("Ingrese su nombre:")
@@ -71,10 +70,6 @@ nota3 = int(input("Ingrese su nota "))
 promedio = (nota1 + nota2 + nota3) / 3
 
 print("Su promedio es de: ", promedio)
-
-
-
-
 
 #10) Cree un programa en el cual pida al usuario el nombre y la edad y muestre por consola la edad que tentra dentro de 10 años
 usuario = input("Ingrese su nombre:")
