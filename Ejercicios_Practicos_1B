@@ -72,6 +72,10 @@ promedio = (nota1 + nota2 + nota3) / 3
 
 print("Su promedio es de: ", promedio)
 
+
+
+
+
 #10) Cree un programa en el cual pida al usuario el nombre y la edad y muestre por consola la edad que tentra dentro de 10 años
 usuario = input("Ingrese su nombre:")
 edad_usuario = int(input("Ingrese su edad "))
