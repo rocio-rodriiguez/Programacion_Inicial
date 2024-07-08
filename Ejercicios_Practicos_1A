@@ -1,0 +1,58 @@
+#1)Escribe un programa muestre por consola “Hola UTN”. 
+print("Hola UTN")
+
+#2) Escribe un programa que muestre por consola el resultado de sumar 3 + 5. 
+suma = 3+5
+print(suma)
+
+#3) Escribe un programa que muestre por consola el resultado de restar 10-5 
+resta = 10-5
+print(resta) 
+
+#4) Escribe un programa que muestre por consola el resultado de restar 10-15 
+resta2 = 10-15
+print(resta2) 
+
+#5) Escribe un programa que muestre por consola el resultado de multiplicar 4*10
+multiplicacion = 4*10
+print(multiplicacion)
+
+#6) Escribe un programa que muestre por consola el resultado de dividir 10/2 
+division = 10/2
+print(division)
+
+#7) Escribe un programa que muestre por consola el resultado de dividir 10/0, detalla en comentarios qué es lo que sucede al dividir por 0. 
+división = (10/0)
+print(division)
+# Al dividir por cero se detuvo la ejecución y muestra un error ZeroDivisionError: division by zero
+
+#8) Escribe un programa que muestre por consola el resultado de la siguiente operación (10+3) * (6+6), ¿qué sucede si realizas la misma operación pero sin los paréntesis?
+operacion = (10+3) * (6+6)
+print(operacion)
+# Primer ejecuta la operación que está entre parentesis y después la multiplicación
+
+operacion2 = 10+3 * 6+6
+print(operacion2)
+
+#9) Escribe un programa que muestre por consola el resultado de la siguiente operación 10%2 
+operacion2 = 10%2
+print(operacion2)
+
+#10) Escribe un programa que muestre por consola la siguiente operación 10%3 
+operacion3 = 10%3
+print(operacion3)
+
+#11) Crear un programa (suma, resta, multiplicación, y división), se deberá generar dos variables del tipo “variableA” y “variableB”, asignarles un valor del tipo número a cada una de ellas. El programa deberá mostrar por consola el resultado de realizar las 4 operaciones aritméticas mencionadas entre ellas.
+
+variableA = int(input("Ingrese un número:"))
+variableB = int(input("Ingrese un número:"))
+
+sum = variableA + variableB
+res = variableA - variableB
+mult = variableA * variableB
+div = variableA / variableB
+
+print("La suma de",variableA,"+",variableB, "es:",sum)
+print("La resta de",variableA,"-",variableB, "es:",res)
+print("La multiplicación de", variableA,"*",variableB, "es:",mult)
+print("La división de", variableA,"/",variableB, "es:",div)
