@@ -1,0 +1,20 @@
+"""
+TP: ES_Facturaciones
+Enunciado:
+Para el departamento de facturación:
+A. Ingresar tres precios de productos y mostrar la suma de los mismos.
+B. Ingresar tres precios de productos y mostrar el promedio de los mismos.
+C. ingresar tres precios de productos sumarlos y mostrar el precio final (más IVA 21%).
+"""
+
+precio1 = float(input("Ingrese el precio: "))
+precio2 = float(input("Ingrese el precio: "))
+precio3 = float(input("Ingrese el precio: "))
+
+total = precio1 + precio2 + precio3
+promedio = (precio1 + precio2 + precio3) / 3
+total_iva= total * 1.21 
+
+print("El total es: ", total)
+print("El promedio es: ", promedio)
+print("El total con iva es: ", total_iva)
